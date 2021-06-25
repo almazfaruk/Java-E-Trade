@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+html,
+html * {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;
+    font-weight:500;
+    font-size: 18px;
+}
+body {
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    z-index:-1;
+}
+label{
+	color:black;
+	font-family: 'Ubuntu', sans-serif;
+	
+}
+input[type=submit]{
+	border-radius:10px;
+	padding-left:20px;
+	padding-right:20px;
+	font-size:18px;
+	margin-left:10px;
+}
+input[type=submit]:hover{
+	transform:scale(1,01);
+}
+input[type=text]
+{
+	border-radius:10px;
+	border:1px solid #c0c0c0;
+	height:42.5px;
+}
+.btnlink{
+	border-radius:10px;
+	padding-left:20px;
+	padding-right:20px;
+	font-size:18px;
+	color:white!important;
+	font-family: 'Ubuntu', sans-serif;
+}
+.btnlink:hover{
+	transform:scale(1,01);
+}
+.div-two{
+
+}
+#example_wrapper{
+	background-color:white!important;
+	margin:auto!important;
+	width:90%;
+}
+.table{
+	width:100%!important;
+	font-family: 'Ubuntu', sans-serif!important;
+}
+.table thead tr th{
+	color:blue!important;
+}
+#choosefile{
+	width: 100%;
+    text-align: center;
+    margin-top: 2%;
+    font-size:10px;
+}
